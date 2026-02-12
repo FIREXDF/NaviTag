@@ -1,0 +1,17 @@
+[package]
+name = "navitag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.13", features = ["tokio", "debug", "advanced", "image"] }
+lofty = "0.21"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"
+rfd = "0.15"
+anyhow = "1.0"
+urlencoding = "2.1.3"
+image = "0.24"
