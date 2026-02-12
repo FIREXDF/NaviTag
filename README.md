@@ -7,6 +7,11 @@
 
 A modern, cross-platform GUI application for organizing and tagging your music library. Built with Rust and Iced, NaviTag allows you to easily edit metadata, fetch information from online sources (Apple Music, Spotify, Genius, Last.fm), and download high-quality cover art.
 
+## Screenshots
+<img width="1026" height="782" alt="image" src="https://github.com/user-attachments/assets/62604402-2178-41e4-a55e-09cdff3a1f67" />
+<img width="1159" height="800" alt="image" src="https://github.com/user-attachments/assets/e989c243-9c77-4b0d-8043-ecf7a64fbe76" />
+
+
 ## Features
 
 -   **File Browser**: Open any directory to list its music files.
