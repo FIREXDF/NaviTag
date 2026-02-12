@@ -9,17 +9,14 @@ A modern, cross-platform GUI application for organizing and tagging your music l
 
 ## Features
 
--   **File Browser**: Navigate your local file system to find music folders.
--   **Metadata Editor**:
-    -   Edit **Title**, **Artist**, and **Album** tags.
-    -   View and update **Cover Art**.
+-   **File Browser**: Open any directory to list its music files.
+-   **Metadata Search**: Select a file, search for it online (Title, Artist, Album), and apply the results.
+-   **Batch Tagging**: Automatically search for and apply metadata to all files in the folder at once.
 -   **Online Search Integration**:
     -   **Apple Music** (Enabled by default)
-    -   **Spotify** (Requires Client ID/Secret)
+    -   **Spotify** (Requires Client ID/Secret) 
     -   **Genius** (Requires Access Token)
     -   **Last.fm** (Requires API Key)
--   **Auto-Tagging**: Apply search results directly to your files with a single click.
--   **Batch Tagging**: Automatically search for metadata based on the folder name.
 -   **Cover Art Downloading**: Fetch high-resolution artwork from online sources.
 -   **Auto-Save**: Changes are automatically saved after a short delay, or manually via "Save All".
 -   **Dark Mode UI**: Clean and intuitive interface designed for efficiency.
@@ -54,11 +51,11 @@ A modern, cross-platform GUI application for organizing and tagging your music l
 1.  **Open a Folder**: Click "Open Folder" to select a directory containing your music files.
 2.  **Select a File**: Click on any file in the left panel to load its details into the editor.
 3.  **Edit Metadata**:
-    -   Manually type into the Title, Artist, or Album fields.
-    -   Use the **Online Search** (right panel) to find metadata.
-    -   Click **Apply** on a search result to copy the tags and cover art to the selected file.
+    -   Select a file.
+    -   Use the **Online Search** (right panel) to find metadata for that specific track.
+    -   Click **Apply** on a result to update the file.
 4.  **Batch Tagging**:
-    -   Click **Batch Tag (Folder)** to automatically identify the album (using the music name) and apply metadata to all files in the current folder.
+    -   Click **Batch Tag (Folder)** to automatically search for and apply metadata to *all* files in the folder at once.
 5.  **Save Changes**:
     -   Changes are auto-saved briefly after editing.
     -   Click **Save All** to force save all changes immediately.
@@ -79,14 +76,3 @@ NaviTag supports multiple metadata providers. You can configure them in the **Se
     -   Enable the checkbox.
     -   Enter your **API Key** (from [Last.fm API Account](https://www.last.fm/api/account/create)).
 6.  Click **Save & Close** to persist your settings.
-
-## Built With
-
--   [**Rust**](https://www.rust-lang.org/): Systems programming language.
--   [**Iced**](https://github.com/iced-rs/iced): Cross-platform GUI library.
--   [**Lofty**](https://github.com/Serial-ATA/lofty-rs): Audio metadata parsing and writing.
--   [**Reqwest**](https://github.com/seanmonstar/reqwest): HTTP client for API requests.
-
-## License
-
-This project is open source.
