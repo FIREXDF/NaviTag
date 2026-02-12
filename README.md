@@ -58,7 +58,7 @@ A modern, cross-platform GUI application for organizing and tagging your music l
     -   Use the **Online Search** (right panel) to find metadata.
     -   Click **Apply** on a search result to copy the tags and cover art to the selected file.
 4.  **Batch Tagging**:
-    -   Click **Batch Tag (Folder)** to automatically identify the album (using the folder name) and apply metadata to all files in the current folder.
+    -   Click **Batch Tag (Folder)** to automatically identify the album (using the music name) and apply metadata to all files in the current folder.
 5.  **Save Changes**:
     -   Changes are auto-saved briefly after editing.
     -   Click **Save All** to force save all changes immediately.
